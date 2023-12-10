@@ -1,0 +1,40 @@
+*{
+  font-family: 'Poppins';
+}
+
+body{
+  background-image: url("assets/bg.png");
+  background-color: #ffc434;
+}
+
+h1{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: rgb(90, 37, 192);
+  font-size: 100px;
+  
+}
+
+.hand-image{
+  position: relative;
+  left: 230px;
+}
+
+.game{
+  right: 250px;
+  bottom: 150px;
+  justify-content: flex-end;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 0px;
+}
+
+h2{
+  margin-left: 30px ;
+  color: rgb(90, 37, 192);
+  text-align: center;
+}

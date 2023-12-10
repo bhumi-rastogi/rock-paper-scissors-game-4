@@ -1,0 +1,63 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url("assets/bg.png");
+  background-color: #ffc434;
+  color: rgb(90, 37, 192);
+}
+
+.win{
+  text-align: center;
+  font-size: 80px;
+}
+
+#one, #cp{
+  border: 1px solid #ffc434;
+  height: 500px;
+  width: 500px;
+  margin: 70px;
+}
+
+.gm{
+  display: flex;
+  justify-content: center;
+}
+
+#hand-one,#cp-hand{
+  height: 280px;
+  width: 210px;
+}
+
+h2{
+  text-align: center;
+}
+
+#box{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button{
+  cursor: pointer;
+}
+
+#win{
+  align-items: center;
+  visibility: hidden;
+  font-size: 70px;
+}
+
+#again{
+  background-color: #ffc434;
+  color: white;
+  visibility: hidden;
+  font-size: 50px;
+}
+
+.b{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
